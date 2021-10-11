@@ -1,11 +1,13 @@
 # academy-notes
 Prerequisites, links, notes for the heise Academy course on GitHub Actions
 
-# Prerequisites
+# 01.02. (Prerequisites)
+
+### git & IDE
 
 I assume you have git & your favorite IDE installed - otherwise do so now. For the course I installed git via my systems package manager (e.g. https://brew.sh/, https://chocolatey.org/ etc.) and IntelliJ as IDE (https://www.jetbrains.com/de-de/idea/download/).
 
-#### Install SDKMan
+### Install SDKMan
 
 To avoid any trouble with JDK and Maven installations let's use a package manager like https://sdkman.io/install :
 
@@ -15,7 +17,7 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk version
 ```
 
-#### Install JDK & Maven
+### Install JDK & Maven
 
 Now simply install a concrete Java version with:
 
@@ -32,13 +34,16 @@ mvn --version
 ```
 
 
-#### Spring Boot Initializer
 
-https://start.spring.io/
 
 
 
 # 01.03.
+
+### Spring Boot Initializer
+
+https://start.spring.io/
+
 
 ### GitHub Actions Workflow Overview
 
