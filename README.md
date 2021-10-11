@@ -1,9 +1,23 @@
 # academy-notes
 Prerequisites, links, notes for the heise Academy course on GitHub Actions
 
-## Prerequisites
+# Prerequisites
 
-#### Install JDK & Maven
+#### Install git
+
+I assume you have git installed - otherwise:
+
+```
+# Mac (https://brew.sh/):
+brew install git
+
+# Windows (https://chocolatey.org/install):
+choco install git
+```
+
+#### Install SDKMan
+
+To avoid any trouble with JDK and Maven installations let's use a package manager like https://sdkman.io/install :
 
 ```
 curl -s "https://get.sdkman.io" | bash
@@ -11,14 +25,16 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk version
 ```
 
-now simply install a concrete Java version with:
+#### Install JDK & Maven
+
+Now simply install a concrete Java version with:
 
 ```
-sdk install java 16.0.1.hs-adpt
+sdk install java 17.0.0-tem
 java -version
 ```
 
-don't forget to install Maven:
+And don't forget to install Maven:
 
 ```
 sdk install maven
