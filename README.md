@@ -3,17 +3,7 @@ Prerequisites, links, notes for the heise Academy course on GitHub Actions
 
 # Prerequisites
 
-#### Install git
-
-I assume you have git installed - otherwise:
-
-```
-# Mac (https://brew.sh/):
-brew install git
-
-# Windows (https://chocolatey.org/install):
-choco install git
-```
+I assume you have git & your favorite IDE installed - otherwise do so now. For the course I installed git via my systems package manager (e.g. https://brew.sh/, https://chocolatey.org/ etc.) and IntelliJ as IDE (https://www.jetbrains.com/de-de/idea/download/).
 
 #### Install SDKMan
 
