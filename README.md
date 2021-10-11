@@ -3,6 +3,9 @@ Prerequisites, links, notes for the heise Academy course on GitHub Actions
 
 # 01.02. (Prerequisites)
 
+<details>
+<summary>Click to expand!</summary>
+  
 ### git & IDE
 
 I assume you have git & your favorite IDE installed - otherwise do so now. For the course I installed git via my systems package manager (e.g. https://brew.sh/, https://chocolatey.org/ etc.) and IntelliJ as IDE (https://www.jetbrains.com/de-de/idea/download/).
@@ -32,22 +35,32 @@ And don't forget to install Maven:
 sdk install maven
 mvn --version
 ```
+</details>
 
-
-
-
+---
 
 
 # 01.03.
 
+<details>
+<summary>Click to expand!</summary>
+  
 ### Spring Boot Initializer
 
 https://start.spring.io/
+</details>
 
+---
 
 
 # 01.04.
 
+<details>
+<summary>Click to expand!</summary>
+  
 ### GitHub Actions Workflow Overview
 
 https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions
+</details>
+
+---
